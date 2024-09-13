@@ -81,7 +81,7 @@ window.onload = function () {
         var canvasblob = canvas.toBlob(function (res) {
             let a = document.createElement('a');
             a.href = URL.createObjectURL(res);
-            a.download = 'hipertension.png';
+            a.download = 'heart-day.png';
             document.body.appendChild(a);
             a.click();
 
